@@ -4,33 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paulo Pereira - Senior Android Engineer</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for Typography -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for modern typography -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div class="container">
             <h1>Paulo Pereira</h1>
             <p>Senior Android Engineer @Bloom & Wild</p>
-            <div class="location">
-                <i class="fas fa-map-marker-alt"></i> Santarém, Portugal
-            </div>
-            <div class="social-links">
-                <a href="mailto:paulo_aa_pereira@outlook.pt" target="_blank"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/paulo-pereira-001615153" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://pauloaapereira.medium.com/" target="_blank"><i class="fab fa-medium"></i></a>
-                <a href="https://twitter.com/pauloppereiraa" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/pauloaapereira" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
+            <p>Santarém, Portugal</p>
         </div>
     </header>
 
-    <!-- Summary Section -->
-    <section id="summary">
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#honors">Honors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="summary" class="fade-in-section">
         <div class="container">
             <h2>Summary</h2>
             <p>I am passionate about Android Development. I work with Kotlin and Java.</p>
@@ -42,32 +41,90 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <section id="experience" class="slide-in-section">
         <div class="container">
-            <div class="skills-container">
-                <div class="skills-box">
-                    <h3>Top Skills</h3>
-                    <ul>
-                        <li>Kotlin</li>
-                        <li>Java</li>
-                        <li>Scrum</li>
-                    </ul>
-                </div>
-                <div class="skills-box">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>English (Full Professional)</li>
-                        <li>Spanish (Limited Working)</li>
-                        <li>Portuguese (Native or Bilingual)</li>
-                    </ul>
-                </div>
+            <h2>Experience</h2>
+            <!-- Bloom & Wild -->
+            <div class="job">
+                <h3>Bloom & Wild</h3>
+                <span>May 2024 - Present (5 months)</span>
+                <h4>Senior Android Engineer</h4>
+                <p>London, England, United Kingdom</p>
+                <ul>
+                    <li>Agile environment, developed using Java and Kotlin, Coroutines, Retrofit, Jetpack Compose, Hilt, MockK, and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
+                    <li>High focus on Clean Architecture & SOLID.</li>
+                    <li>Multiple modules & flavours</li>
+                    <li>High impact on modernising legacy code and turning it into a testable and scalable code</li>
+                </ul>
+            </div>
+            <!-- Android Engineer Role -->
+            <div class="job">
+                <h3>Android Engineer</h3>
+                <span>January 2022 - May 2024 (2 years 5 months)</span>
+                <p>London, England, United Kingdom</p>
+                <ul>
+                    <li>Agile environment, developed using Java and Kotlin, Coroutines, Retrofit, Jetpack Compose, Hilt, MockK, and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
+                    <li>High focus on Clean Architecture & SOLID.</li>
+                    <li>Multiple modules & flavours</li>
+                    <li>High impact on modernising legacy code and turning it into a testable and scalable code</li>
+                </ul>
+            </div>
+            <!-- Talkdesk -->
+            <div class="job">
+                <h3>Talkdesk</h3>
+                <span>April 2021 - January 2022 (10 months)</span>
+                <h4>Android Engineer</h4>
+                <ul>
+                    <li>Agile environment, developed using Kotlin, Coroutines, Ktor, Jetpack Compose, Hilt, MockK and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
+                    <li>Following Clean Architecture & SOLID.</li>
+                </ul>
+            </div>
+            <!-- Softinsa -->
+            <div class="job">
+                <h3>Softinsa</h3>
+                <span>December 2017 - April 2021 (3 years 5 months)</span>
+                <h4>Android Developer</h4>
+                <p>Tomar</p>
+                <ul>
+                    <li>"BizkaiUP" - 10k+ users on Play Store</li>
+                    <li>"Bank of Cyprus" - 200k+ users on Play Store</li>
+                    <li>"Electricity Authority of Cyprus"</li>
+                    <li>"SmarterFest" - 5k+ users on Play Store</li>
+                    <li>Various responsibilities and achievements listed in your details.</li>
+                </ul>
+            </div>
+            <!-- Software Developer -->
+            <div class="job">
+                <h3>Software Developer</h3>
+                <span>October 2017 - December 2017 (3 months)</span>
+                <p>Tomar, Santarém, Portugal</p>
+                <ul>
+                    <li>Server Monitoring Web App: Developed using Django, Python, Softlayer, jQuery, Javascript, HTML/CSS and SQL.</li>
+                    <li>Python Scripting: Developed using Python and IBM Aspera.</li>
+                    <li>Software Testing: Developed using RobotFramework and PyCharm.</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <!-- Honors & Awards Section -->
-    <section id="honors">
+    <section id="skills" class="fade-in-section">
+        <div class="container">
+            <h2>Top Skills</h2>
+            <ul class="skills-list">
+                <li>Kotlin</li>
+                <li>Java</li>
+                <li>Scrum</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul class="languages-list">
+                <li>English (Full Professional)</li>
+                <li>Spanish (Limited Working)</li>
+                <li>Portuguese (Native or Bilingual)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="honors" class="slide-in-section">
         <div class="container">
             <h2>Honors & Awards</h2>
             <ul>
@@ -76,130 +133,25 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
+    <section id="contact" class="fade-in-section">
         <div class="container">
-            <h2>Experience</h2>
-
-            <!-- Bloom & Wild -->
-            <div class="job">
-                <h3>Senior Android Engineer @ Bloom & Wild</h3>
-                <span>May 2024 - Present (5 months) | London, England, United Kingdom</span>
-                <ul>
-                    <li>Agile environment, developed using Java and Kotlin, Coroutines, Retrofit, Jetpack Compose, Hilt, MockK, and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
-                    <li>High focus on Clean Architecture & SOLID.</li>
-                    <li>Multiple modules & flavours</li>
-                    <li>High impact on modernising legacy code and turning it into a testable and scalable code</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Android Engineer @ Bloom & Wild</h3>
-                <span>January 2022 - May 2024 (2 years 5 months) | London, England, United Kingdom</span>
-                <ul>
-                    <li>Agile environment, developed using Java and Kotlin, Coroutines, Retrofit, Jetpack Compose, Hilt, MockK, and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
-                    <li>High focus on Clean Architecture & SOLID.</li>
-                    <li>Multiple modules & flavours</li>
-                    <li>High impact on modernising legacy code and turning it into a testable and scalable code</li>
-                </ul>
-            </div>
-
-            <!-- Talkdesk -->
-            <div class="job">
-                <h3>Android Engineer @ Talkdesk</h3>
-                <span>April 2021 - January 2022 (10 months)</span>
-                <ul>
-                    <li>Agile environment, developed using Kotlin, Coroutines, Ktor, Jetpack Compose, Hilt, MockK and JUnit for unit tests and Espresso for UI tests. MVVM Pattern.</li>
-                    <li>Following Clean Architecture & SOLID.</li>
-                </ul>
-            </div>
-
-            <!-- Softinsa -->
-            <div class="job">
-                <h3>Android Developer @ Softinsa</h3>
-                <span>December 2017 - April 2021 (3 years 5 months) | Tomar</span>
-                <ul>
-                    <li>"BizkaiUP" - 10k+ users on Play Store
-                        <ul>
-                            <li>An application where the population of Bizkaia can check COVID-19 related news, beaches current occupation and information, use an Augmented Reality tool developed with ARCore to measure the distance between each other, receive push notifications with Firebase every time a new article is created.</li>
-                            <li>Had a big impact on this project in terms of effectiveness, by reducing 5 weeks in the initial estimated development time.</li>
-                            <li>Agile environment</li>
-                            <li>Developed using Kotlin, Coroutines, Retrofit, Hilt, JUnit for unit tests and Firebase Push Notifications.</li>
-                            <li>MVVM Pattern.</li>
-                        </ul>
-                    </li>
-                    <li>"Bank of Cyprus" - 200k+ users on Play Store
-                        <ul>
-                            <li>One of the biggest bank sector IT Projects signed to that date within the Greece/Cyprus entity, with the collaboration of IBM Spain, IBM Portugal and IBM Greece.</li>
-                            <li>One of the very few IBM teams that have delivered bank aggregation on that time.</li>
-                            <li>Had a big impact on this project in terms of effectiveness, by maintaining myself committed and dedicated in order to achieve its committed targets always successfully.</li>
-                            <li>Agile environment</li>
-                            <li>Developed using Kotlin, RxJava, Retrofit, Koin, JUnit for unit tests, Google Maps and Firebase Push Notifications.</li>
-                            <li>MVP Pattern.</li>
-                        </ul>
-                    </li>
-                    <li>"Electricity Authority of Cyprus"
-                        <ul>
-                            <li>Used to manage work orders, with the collaboration of IBM Portugal and IBM Greece.</li>
-                            <li>Agile environment</li>
-                            <li>Developed using Kotlin, RxJava, Retrofit, Moshi, IBM Maximo, Open Street Maps and JUnit for unit tests.</li>
-                            <li>MVVM Pattern.</li>
-                        </ul>
-                    </li>
-                    <li>"SmarterFest" - 5k+ users on Play Store
-                        <ul>
-                            <li>Agile environment</li>
-                            <li>Developed using Kotlin, Coroutines, Retrofit, JUnit for unit tests and Open Street Maps.</li>
-                            <li>MVVM Pattern.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Software Developer -->
-            <div class="job">
-                <h3>Software Developer</h3>
-                <span>October 2017 - December 2017 (3 months) | Tomar, Santarém, Portugal</span>
-                <ul>
-                    <li>Server Monitoring Web App
-                        <ul>
-                            <li>Developed for client specific virtual machines management in collaboration with IBM Portugal.</li>
-                            <li>Developed using Django, Python, Softlayer, jQuery, Javascript, HTML/CSS and SQL.</li>
-                        </ul>
-                    </li>
-                    <li>Python Scripting
-                        <ul>
-                            <li>Python scripts to a Portuguese known TV station, with the objective of passing the files from one server folder to another using FTP.</li>
-                            <li>Developed using Python and IBM Aspera.</li>
-                        </ul>
-                    </li>
-                    <li>Software Testing
-                        <ul>
-                            <li>Wrote tests to a Portuguese Communications company management website.</li>
-                            <li>Developed using RobotFramework and PyCharm.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li>Email: <a href="mailto:paulo_aa_pereira@outlook.pt">paulo_aa_pereira@outlook.pt</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/paulo-pereira-001615153" target="_blank">linkedin.com/in/paulo-pereira-001615153</a></li>
+                <li>Blog: <a href="https://pauloaapereira.medium.com/" target="_blank">pauloaapereira.medium.com</a></li>
+                <li>Twitter: <a href="https://twitter.com/pauloppereiraa" target="_blank">twitter.com/pauloppereiraa</a></li>
+                <li>GitHub: <a href="https://github.com/pauloaapereira" target="_blank">github.com/pauloaapereira</a></li>
+            </ul>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Instituto Politécnico de Tomar</h3>
-                <span>TesP de Tecnologia e Programação em Sistemas de Informação, Engenharia Informática (2015 - 2017)</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
     <footer>
         <div class="container">
             <p>&copy; 2024 Paulo Pereira. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
