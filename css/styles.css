@@ -24,9 +24,10 @@ nav a {
 
 /* Hero Section Customizations */
 #hero {
-  background-image: url('assets/images/hero-bg.jpg'); /* Optional: Add a background image */
-  background-size: cover;
-  background-position: center;
+  /* Optional: If you want a background image instead of gradient */
+  /* background-image: url('assets/images/hero-bg.jpg'); */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 /* Mobile Menu Transition */
