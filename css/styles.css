@@ -24,10 +24,44 @@ nav a {
 
 /* Hero Section Customizations */
 #hero {
-  /* Optional: If you want a background image instead of gradient */
-  /* background-image: url('assets/images/hero-bg.jpg'); */
-  /* background-size: cover; */
-  /* background-position: center; */
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at top right, rgba(99, 102, 241, 0.15) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(10px) translateX(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animation-delay-100 {
+  animation-delay: 1s;
+}
+
+.animation-delay-200 {
+  animation-delay: 2s;
+}
+
+.animation-delay-300 {
+  animation-delay: 3s;
+}
+
+/* Floating shapes */
+.floating-shape {
+  position: absolute;
+  pointer-events: none;
 }
 
 /* Mobile Menu Transition */
